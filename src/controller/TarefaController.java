@@ -31,5 +31,14 @@ public class TarefaController {
         
     }
     
+    //Remover Tarefa
+    public void remover(int indice){
+        lista.remove(indice);
+        
+    }
     
+    //Total Tarefas
+    public int totalTarefa(){
+        return lista.size();
+    }
 }
