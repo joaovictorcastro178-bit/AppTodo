@@ -33,7 +33,7 @@ public class TarefaModel {
 
     @Override
     public String toString() {
-        return nome + "- Concluída:" + concluida;
+        return nome + " - Concluída: " + concluida;
     }
     
     
