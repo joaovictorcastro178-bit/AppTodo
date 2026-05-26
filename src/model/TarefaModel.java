@@ -11,7 +11,7 @@ public class TarefaModel {
     //Construtor
     public TarefaModel(String nome) {
         this.nome = nome;
-        this.concluida = concluida = false;
+        this.concluida = false;
     }
     
     //Getter and Setter
@@ -33,7 +33,7 @@ public class TarefaModel {
 
     @Override
     public String toString() {
-        return "TarefaModel{" + "nome=" + nome + ", concluida=" + concluida + '}';
+        return nome + "- Concluída:" + concluida;
     }
     
     
